@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox HorizontalAlignment="Center" Height="321" Header="" VerticalAlignment="Center" Width="312">
+            <Grid>
+                <Button Content="старт" HorizontalAlignment="Left" Margin="221,0,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+                <Button Content="заново" HorizontalAlignment="Left" Margin="221,61,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="к" HorizontalAlignment="Left" Margin="49,39,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+                <RadioButton Content="н" HorizontalAlignment="Left" Margin="49,71,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+                <RadioButton Content="б" HorizontalAlignment="Left" Margin="49,105,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+                <Button Content="стоп" HorizontalAlignment="Left" Margin="221,105,0,0" VerticalAlignment="Top"/>
+
+            </Grid>
+        </GroupBox>
+        <Image x:Name="б" Margin="46,57,522,175" Source="/e8ec4909f53a24df2a6358f773660c1c.jpg" Visibility="Hidden" />
+        <Image x:Name="н" Margin="40,47,528,185" Source="/6709791547.jpg" Visibility="Hidden" />
+        <Image x:Name="к" Margin="40,47,528,185" Source="/1614588339_5-p-kamen-na-belom-fone-10.png" RenderTransformOrigin="0.524,-0.116" Visibility="Hidden"/>
+        <Image x:Name="к_Копировать" Margin="541,185,27,47" Source="/1614588339_5-p-kamen-na-belom-fone-10.png" Visibility="Hidden" />
+        <Image x:Name="н_Копировать" Margin="541,185,27,47" Source="/6709791547.jpg" Visibility="Hidden"/>
+        <Image x:Name="б_Копировать" Margin="541,175,27,56" Source="/e8ec4909f53a24df2a6358f773660c1c.jpg" Visibility="Hidden"/>
+        <Label x:Name="Label1" Content="Label" HorizontalAlignment="Left" Margin="323,16,0,0" VerticalAlignment="Top" Height="36" Width="77"/>
+    </Grid>
+</Window>
